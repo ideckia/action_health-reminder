@@ -1,0 +1,18 @@
+[
+	{
+		"id": "action_description",
+		"text": "Healthy reminders"
+	},
+	{
+		"id": "prop_interval",
+		"text": "Interval in minutes"
+	},
+	{
+		"id": "drink_dialog_title",
+		"text": "Water drinking time"
+	},
+	{
+		"id": "drink_dialog_body",
+		"text": "[{0}] minutes since you drink water last time."
+	}
+]

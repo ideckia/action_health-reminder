@@ -1,0 +1,18 @@
+[
+	{
+		"id": "action_description",
+		"text": "Oroigarri osasuntsuak"
+	},
+	{
+		"id": "prop_interval",
+		"text": "Maiztasuna minututan"
+	},
+	{
+		"id": "drink_dialog_title",
+		"text": "Ura edateko ordua"
+	},
+	{
+		"id": "drink_dialog_body",
+		"text": "[{0}] minutu pasa dira ura edan duzunetik."
+	}
+]

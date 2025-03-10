@@ -1,0 +1,10 @@
+--library hxnodejs
+--library ideckia_api
+--dce full
+-D js-es=6
+HealthReminder
+
+--js index.js
+
+# --next
+# --cmd cp index.js /home/josu/ideckia/actions/health-reminder
