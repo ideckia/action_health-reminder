@@ -50,7 +50,7 @@ class HealthReminder extends IdeckiaAction {
 		if (minutes == props.interval) {
 			core.dialog.info(Loc.drink_dialog_title.tr(), Loc.drink_dialog_body.tr(minutes));
 			minutes = 0;
-			state.icon = water.getWaterSvg(.9);
+			state.icon = water.getWaterSvg(1.);
 			state.bgColor = 'ffcc0000';
 		} else {
 			state.bgColor = null;
