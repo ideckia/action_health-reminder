@@ -1,7 +1,7 @@
 <svg width="80px" height="90px" version="1.1" id="water_glass" xmlns="http://www.w3.org/2000/svg"
 	xmlns:svg="http://www.w3.org/2000/svg">
 
-	<circle cx="30" cy="30" r="10" stroke="black" fill="white" stroke-width="1"/>
+	<circle cx="30" cy="30" r="10" stroke="none" fill="white" stroke-width="1"/>
 	<polyline 
 		points="30,30 15,63 50,63"
 		stroke="white"
