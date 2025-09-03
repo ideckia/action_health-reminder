@@ -8,11 +8,31 @@
 		"text": "Maiztasuna minututan"
 	},
 	{
+		"id": "prop_cron_expression",
+		"text": "(cron zer den ez badakizu, honi kasurik ez) Oroigarriak programatzeko cron adierazpena. Maiztasunaren gainetik lehentasuna du."
+	},
+	{
 		"id": "drink_dialog_title",
-		"text": "Ura edateko ordua"
+		"text": "Hidratatu"
 	},
 	{
 		"id": "drink_dialog_body",
-		"text": "[{0}] minutu pasa dira ura edan duzunetik."
+		"text": "Ura edateko ordua da!"
+	},
+	{
+		"id": "relax_vision_dialog_title",
+		"text": "Begiak erlaxatu"
+	},
+	{
+		"id": "relax_vision_dialog_body",
+		"text": "Begiratu urruneko puntu batera!"
+	},
+	{
+		"id": "stretch_dialog_title",
+		"text": "Luzatu"
+	},
+	{
+		"id": "stretch_dialog_body",
+		"text": "Altxa eta luzatu!"
 	}
 ]

@@ -32,6 +32,13 @@ jobs:
     - name: Compile project
       run: haxe deploy.hxml
 
+    - name: Install node.js dependencies
+      run: npm install
+
+    - name: Minify node_modules
+      run: |
+        rm node_modules/cron-schedule/dist/*.map
+
     - name: Package to release
       run: |
         mkdir ${{ env.CMD_NAME }}
@@ -39,6 +46,7 @@ jobs:
         mv presets.json ${{ env.CMD_NAME }}
         mv readme.md ${{ env.CMD_NAME }}
         mv loc ${{ env.CMD_NAME }}
+        cp -r node_modules ${{ env.CMD_NAME }}
         echo '{"repository": "http://github.com/${{ github.repository }}","filename": "${{ env.CMD_NAME }}.zip","version": "${{ github.ref_name }}"}' > ${{ env.CMD_NAME }}/.info
         zip -r ${{ env.CMD_NAME }} ${{ env.CMD_NAME }}
 

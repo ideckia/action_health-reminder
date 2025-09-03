@@ -1,0 +1,30 @@
+<svg width="90px" height="60px" version="1.1" id="water_glass" xmlns="http://www.w3.org/2000/svg"
+	xmlns:svg="http://www.w3.org/2000/svg">
+
+	<defs>
+		<clipPath id="cut-top">
+			<path 
+				d="M 5 30
+				C 30 ::eye_openness:: 60 ::eye_openness:: 85 30
+				C 60 60 30 60 5 30
+				Z"
+				fill="white"
+				stroke="black"/>
+		</clipPath>
+	</defs>
+
+	<path 
+		d="M 5 30
+		C 30 ::eye_openness:: 60 ::eye_openness:: 85 30
+		C 60 60 30 60 5 30
+		Z"
+		fill="white"
+		stroke="black"/>
+	
+	<circle cx="44" cy="32" r="15" stroke="black" fill="transparent" stroke-width="1"
+		clip-path="url(#cut-top)"/>
+	
+	<circle cx="44" cy="32" r="3" stroke="black" fill="black" stroke-width="1"
+		clip-path="url(#cut-top)"/>
+
+</svg>

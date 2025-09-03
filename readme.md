@@ -4,11 +4,19 @@
 
 Healthy reminders
 
+
+Idea taken from https://github.com/Jorkoh/Stream-Deck-Health-Reminders
+
 ## Properties
 
 | Name | Type | Description | Shared | Default | Possible values |
 | ----- |----- | ----- | ----- | ----- | ----- |
 | interval | number | Interval in minutes | false | 30 | null |
+| cron_expression | text | (if you don't know what cron is, ignore this) Cron expression to program reminders. Has priority over interval. | false | null | null |
+
+## On single click
+
+Updates the information in the item
 
 ## On long press
 
@@ -36,7 +44,8 @@ node test_action.js
         {
             "name": "health-reminder",
             "props": {
-                "interval": 30
+                "interval": 30,
+                "cron_expression": null
             }
         }
     ]

@@ -7,8 +7,19 @@
 		</clipPath>
 	</defs>
 
-	<g id="layer1">
-		<path style="fill:#00a9ff;stroke:none" d="M10 10 L30 75 L60 75 L80 10 Z" id="water" clip-path="url(#cut-top)"/>
-		<polyline points="10,5 30,75 62,75 80,5" stroke="#cccccc" stroke-width="4" fill="none" id="glass"/>
-	</g>
+	<path id="water"
+		d="M10 10
+		L30 75
+		L60 75
+		L80 10
+		Z"
+		fill="#00a9ff"
+		stroke="none"
+		clip-path="url(#cut-top)"/>
+
+	<polyline id="glass"
+		points="10,5 30,75 62,75 80,5"
+		stroke="#cccccc"
+		stroke-width="4"
+		fill="none"/>
 </svg>

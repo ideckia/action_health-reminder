@@ -1,10 +1,9 @@
+--class-path src
 --library hxnodejs
 --library ideckia_api
+--library datetime
 --dce full
 -D js-es=6
 HealthReminder
 
 --js index.js
-
-# --next
-# --cmd cp index.js /home/josu/ideckia/actions/health-reminder

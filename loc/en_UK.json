@@ -8,11 +8,31 @@
 		"text": "Interval in minutes"
 	},
 	{
+		"id": "prop_cron_expression",
+		"text": "(if you don't know what cron is, ignore this) Cron expression to program reminders. Has priority over interval."
+	},
+	{
 		"id": "drink_dialog_title",
-		"text": "Water drinking time"
+		"text": "Hydrate"
 	},
 	{
 		"id": "drink_dialog_body",
-		"text": "[{0}] minutes since you drink water last time."
+		"text": "Time to drink water!"
+	},
+	{
+		"id": "relax_vision_dialog_title",
+		"text": "Relax vision"
+	},
+	{
+		"id": "relax_vision_dialog_body",
+		"text": "Look to a distant point!"
+	},
+	{
+		"id": "stretch_dialog_title",
+		"text": "Stretch"
+	},
+	{
+		"id": "stretch_dialog_body",
+		"text": "Get up and stretch!"
 	}
 ]

@@ -1,0 +1,20 @@
+{
+	"title": "::title::",
+	"window_size": [
+		300,
+		180
+	],
+	"body": [
+		{
+			"label": {
+				"text": "::label_text::"
+			}
+		},
+		{
+			"image": {
+				"id": "image",
+				"path": "::image_path::"
+			}
+		}
+	]
+}
